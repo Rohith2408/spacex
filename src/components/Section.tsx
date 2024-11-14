@@ -14,11 +14,15 @@ import VideoComponent from "./Videocomponent";
 // import vid_2 from '../images/Section1/2.mp4'
 // import vid_3 from '../images/Section1/3.mp4'
 // import vid_4 from '../images/Section1/4.mp4'
-import img1 from '../images/Section1/1.jpg'
+import img1 from '../images/Section1/1.jpeg'
 import img2 from '../images/Section1/2.jpg'
 import img3 from '../images/Section1/3.jpg'
-import img4 from '../images/Section1/4.jpg'
+import img4 from '../images/Section1/4.jpeg'
 import img5 from '../images/Section1/5.jpg'
+import img6 from '../images/Section1/6.jpeg'
+import img7 from '../images/Section1/7.jpeg'
+import img8 from '../images/Section1/8.jpeg'
+import img9 from '../images/Section1/9.jpeg'
 import gif1 from '../images/Section1/1.gif'
 import gif2 from '../images/Section1/2.gif'
 import gif3 from '../images/Section1/3.gif'
@@ -30,6 +34,8 @@ import gif8 from '../images/Section1/8.gif'
 import gif9 from '../images/Section1/9.gif'
 import gif10 from '../images/Section1/10.gif'
 import gif11 from '../images/Section1/11.gif'
+import gif12 from '../images/Section1/12.gif'
+import gif13 from '../images/Section1/13.gif'
 import logo from '../images/Section1/logo.jpeg'
 
 const Section1=()=>{
@@ -44,7 +50,7 @@ const Section1=()=>{
     const interval=useRef<any>()
     const ca=useRef("TBA").current
     const [load,setLoad]=useState(false);
-    const images=useRef([gif1,img1,gif2,img2,gif3,img3,gif4,img2,gif5,img5,gif6,img1,gif7,img4,gif8,img3,gif9,img5,gif10,img1,gif11,img3,gif1,img2]).current
+    const images=useRef([gif1,img1,gif2,img2,gif6,img3,gif4,img6,gif5,img5,gif3,img7,gif7,img4,gif8,img8,gif9,img5,gif10,img9,gif11,gif13,gif12,img2]).current
     const images2=useRef([gif1,img1,gif2]).current
 
     useEffect(()=>{
