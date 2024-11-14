@@ -16,3 +16,8 @@ code {
   font-family: "spacex";
   src: url("/public/SpaceX.ttf");
 }
+
+@font-face {
+  font-family: "aileron";
+  src: url("/public/Ailerons.otf");
+}

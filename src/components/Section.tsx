@@ -84,7 +84,7 @@ const Section1=()=>{
                         ))}
                     </div>
                     <div className={styles.cawrapper}>
-                        <p className={styles.caHeading}>CA</p>
+                        <p className={styles.caHeading}>CA:</p>
                         <p className={styles.ca} >{ca}</p>
                         <button className={styles.copyWrapper} onClick={()=>{alert("CA has been copied");navigator.clipboard.writeText(ca)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                     </div>

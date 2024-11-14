@@ -65,7 +65,7 @@
   .caHeading,.ca{
     margin: 0;
     color: black;
-    font-family: var(--font-patrick-hand);
+    font-family: "aileron";
     
   }
 
@@ -137,7 +137,7 @@
     }
 
     .socialicons{
-        width: 24px;
+        width: 34px;
         border-radius: 100px;
     }
 
@@ -151,7 +151,7 @@
     }
 
     .caHeading,.ca{
-        font-size:12px;
+        font-size:20px;
     }
 
     .copyIcon{
@@ -170,8 +170,8 @@
     }
 
     .logo{
-        width:150px;
-        height:150px;
+        width:200px;
+        height:200px;
         object-fit: contain;
     }
 
@@ -223,7 +223,7 @@
     }
 
     .caHeading,.ca{
-        font-size:14px;
+        font-size:24px;
     }
 
     .copyIcon{
@@ -242,8 +242,8 @@
     }
 
     .logo{
-        width:150px;
-        height:150px;
+        width:250px;
+        height:250px;
         object-fit: contain;
     }
 
@@ -294,7 +294,7 @@
     }
 
     .caHeading,.ca{
-        font-size:16px;
+        font-size:30px;
     }
 
     .copyIcon{
@@ -307,8 +307,8 @@
     }
 
     .logo{
-        width:200px;
-        height: 200px;
+        width:270px;
+        height:270px;
         object-fit: contain;
     }
 
@@ -364,7 +364,7 @@
     }
 
     .caHeading,.ca{
-        font-size:24px;
+        font-size:32px;
     }
 
     .copyIcon{
@@ -377,8 +377,8 @@
     }
 
     .logo{
-        width:250px;
-        height: 250px;
+        width:320px;
+        height:320px;
         object-fit: contain;
     }
 
