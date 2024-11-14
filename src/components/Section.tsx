@@ -30,6 +30,7 @@ import gif8 from '../images/Section1/8.gif'
 import gif9 from '../images/Section1/9.gif'
 import gif10 from '../images/Section1/10.gif'
 import gif11 from '../images/Section1/11.gif'
+import logo from '../images/Section1/logo.jpeg'
 
 const Section1=()=>{
 
@@ -43,7 +44,8 @@ const Section1=()=>{
     const interval=useRef<any>()
     const ca=useRef("TBA").current
     const [load,setLoad]=useState(false);
-    const images=useRef([gif1,img1,gif2,img2,gif3,img3,gif4,img4,gif5,img5,gif6,img2,gif7,img4,gif8,img1,gif9,img5,gif10,img1,gif11,img3,gif1,img2]).current
+    const images=useRef([gif1,img1,gif2,img2,gif3,img3,gif4,img2,gif5,img5,gif6,img1,gif7,img4,gif8,img3,gif9,img5,gif10,img1,gif11,img3,gif1,img2]).current
+    const images2=useRef([gif1,img1,gif2]).current
 
     useEffect(()=>{
 
@@ -57,9 +59,11 @@ const Section1=()=>{
 
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
+            <div style={{position:"absolute",width:"100%",height:"100%",backgroundColor:"rgba(0,0,0,0.5)"}}></div>
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
-                    <p className={styles.title}>$SpaceX</p>
+                    <img className={styles.logo} src={logo} style={{borderRadius:"1000px"}}/>
+                    {/* <p className={styles.title}>SpaceX</p> */}
                     <div className={styles.socialWrapper}>
                     {
                         socialIcons.map((icon) => (
@@ -81,6 +85,13 @@ const Section1=()=>{
                     <div className={styles.background} style={{position:'absolute',zIndex:-1}}>
                     {
                         images.map((image)=>
+                            <img src={image} style={{width:"100%",height:"100%",objectFit:"cover"}}></img>
+                        )
+                    }
+                    </div>
+                    <div className={styles.background2} style={{position:'absolute',zIndex:-1}}>
+                    {
+                        images2.map((image)=>
                             <img src={image} style={{width:"100%",height:"100%",objectFit:"cover"}}></img>
                         )
                     }

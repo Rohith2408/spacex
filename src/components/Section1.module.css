@@ -120,6 +120,10 @@
     }
 
     .background{
+        display: none;
+    }
+
+    .background2{
         grid-template-columns:1fr;
     }
 
@@ -165,6 +169,12 @@
         object-fit: contain;
     }
 
+    .logo{
+        width:150px;
+        height:150px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -183,6 +193,10 @@
     .background{
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+
+    .background2{
+        display: none;
     }
 
     .banner{
@@ -226,6 +240,13 @@
         height:450px;
         object-fit: contain;
     }
+
+    .logo{
+        width:150px;
+        height:150px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
@@ -243,6 +264,10 @@
     .background{
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .background2{
+        display: none;
     }
 
     .banner{
@@ -281,6 +306,12 @@
         font-size:100px;
     }
 
+    .logo{
+        width:200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1921px){
@@ -303,6 +334,10 @@
     .background{
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .background2{
+        display: none;
     }
 
     .banner{
@@ -338,7 +373,13 @@
     }
 
     .title{
-        font-size:160px;
+        font-size:50px;
+    }
+
+    .logo{
+        width:250px;
+        height: 250px;
+        object-fit: contain;
     }
 
   }
