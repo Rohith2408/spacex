@@ -10,7 +10,7 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background-image: url("../images/Section1/bg.jpg");
+    background-image: url("../images/Section1/bg.jpg")
 }
   
   .subwrapper{
